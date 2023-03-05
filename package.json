@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/KirToff/Nextjs-todolist/issues"
   },
-  "homepage": "https://github.com/KirToff/Nextjs-todolist#readme"
+  "homepage": "https://github.com/KirToff/Nextjs-todolist#readme",
+  "dependencies": {
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
